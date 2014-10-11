@@ -1,0 +1,74 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "post",
+        "uri": "http://192.168.1.23:8088/ari/bridges?api_key=asterisk:asterisk&app=dialplan&type=mixing,dtmf_events,proxy_media",
+        "body": {
+          "encoding": "UTF-8",
+          "string": ""
+        },
+        "headers": {
+          "Content-Type": [
+            "json"
+          ],
+          "Accept": [
+            "application/json"
+          ],
+          "Accept-Charset": [
+            "utf-8"
+          ],
+          "User-Agent": [
+            "asterisk-ari/0.0.1 ruby/2.2.0"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Server": [
+            "Asterisk/12.5.0"
+          ],
+          "Date": [
+            "Sun, 05 Oct 2014 11:25:39 GMT"
+          ],
+          "Connection": [
+            "close"
+          ],
+          "Cache-Control": [
+            "no-cache, no-store"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Content-Length": [
+            "164"
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": {
+            "id": "310e4c2d-85cc-4267-90e4-491217040d80",
+            "channels": [
+
+            ],
+            "name": "",
+            "technology": "simple_bridge",
+            "bridge_class": "stasis",
+            "creator": "Stasis",
+            "bridge_type": "mixing"
+          }
+        },
+        "http_version": null
+      },
+      "recorded_at": "Mon, 06 Oct 2014 17:55:00 GMT"
+    }
+  ],
+  "recorded_with": "VCR 2.9.3"
+}

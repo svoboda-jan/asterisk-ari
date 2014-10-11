@@ -1,0 +1,83 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "post",
+        "uri": "http://192.168.1.23:8088/ari/channels?api_key=asterisk:asterisk&app=dialplan&channelId=cb07847a-595b-48ff-857b-b7a78893fd83&endpoint=PJSIP/1ca410-mac&extension=11",
+        "body": {
+          "encoding": "UTF-8",
+          "string": ""
+        },
+        "headers": {
+          "Content-Type": [
+            "json"
+          ],
+          "Accept": [
+            "application/json"
+          ],
+          "Accept-Charset": [
+            "utf-8"
+          ],
+          "User-Agent": [
+            "asterisk-ari/0.0.1 ruby/2.2.0"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Server": [
+            "Asterisk/12.5.0"
+          ],
+          "Date": [
+            "Sun, 05 Oct 2014 11:35:07 GMT"
+          ],
+          "Connection": [
+            "close"
+          ],
+          "Cache-Control": [
+            "no-cache, no-store"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Content-Length": [
+            "321"
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": {
+            "id": "cb07847a-595b-48ff-857b-b7a78893fd83",
+            "state": "Down",
+            "name": "PJSIP/1ca410-mac-0000000d",
+            "caller": {
+              "name": "",
+              "number": ""
+            },
+            "connected": {
+              "name": "",
+              "number": ""
+            },
+            "accountcode": "1ca4106c-20b2-11e4-9f50-03cba5fbf325",
+            "dialplan": {
+              "context": "default",
+              "exten": "s",
+              "priority": 1
+            },
+            "creationtime": "2014-10-05T11:35:07.413+0000"
+          }
+        },
+        "http_version": null
+      },
+      "recorded_at": "Mon, 06 Oct 2014 18:04:27 GMT"
+    }
+  ],
+  "recorded_with": "VCR 2.9.3"
+}
