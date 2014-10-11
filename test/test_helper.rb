@@ -39,4 +39,4 @@ VCR.configure do |c|
   }
 end
 
-require File.expand_path('../../lib/asterisk/ari.rb', __FILE__)
+require File.expand_path('../../lib/asterisk/ari/client.rb', __FILE__)

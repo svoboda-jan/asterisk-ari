@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'asterisk/ari/version'
+require 'asterisk/ari/client/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "asterisk-ari"
-  spec.version       = Asterisk::Ari::VERSION
+  spec.name          = "asterisk-ari-client"
+  spec.version       = Asterisk::Ari::Client::VERSION
   spec.authors       = ["Jan Svoboda"]
   spec.email         = ["jan@mluv.cz"]
   spec.summary       = %q{Ruby client library for the Asterisk REST Interface (ARI).}

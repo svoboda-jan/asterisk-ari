@@ -8,7 +8,7 @@ It uses the swagger ARI json definitions to generate ruby classes.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'asterisk-ari'
+gem 'asterisk-ari-client'
 ```
 
 And then execute:
@@ -17,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install asterisk-ari
+    $ gem install asterisk-ari-client
 
 ## Usage
 

@@ -1,4 +1,4 @@
-require 'asterisk-ari'
+require 'asterisk-ari-client'
 
 Ari.client = Ari::Client.new(
   url: 'http://192.168.1.23:8088/ari',

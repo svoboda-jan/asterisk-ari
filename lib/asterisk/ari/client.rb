@@ -1,4 +1,4 @@
-require "asterisk/ari/version"
+require "asterisk/ari/client/version"
 
 require "ari"
 require "ari/model"

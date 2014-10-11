@@ -19,7 +19,7 @@ module Ari
       'Content-Type'    => 'json',
       'Accept'          => 'application/json',
       'Accept-Charset'  => 'utf-8',
-      'User-Agent'      => "asterisk-ari/#{::Asterisk::Ari::VERSION} ruby/#{RUBY_VERSION}"
+      'User-Agent'      => "asterisk-ari-client/#{::Asterisk::Ari::Client::VERSION} ruby/#{RUBY_VERSION}"
     }
 
     def initialize(options = {})
