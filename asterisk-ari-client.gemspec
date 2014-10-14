@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "vcr", "~> 2.9.3"
   spec.add_development_dependency "webmock", "~> 1.19.0"
 
-  spec.add_development_dependency "active_support", "~> 4.1.6"
+  spec.add_development_dependency "activesupport", "~> 4.1.6"
 
   spec.add_dependency "websocket-client-simple", "~> 0.2.0"
   spec.add_dependency "event_emitter", "~> 0.2.5"
