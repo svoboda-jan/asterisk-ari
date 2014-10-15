@@ -56,4 +56,22 @@ class TestChannel < Minitest::Test
     end
   end
 
+  def test_originate_with_channel_vars
+    VCR.use_cassette 'channel_originate_with_channel_vars' do
+      channel = @client.channels.originate({
+        endpoint: 'PJSIP/1ca410-mac',
+        extension: 11,
+        body: { variables: { my_var: 'my_value' } }
+      })
+
+      assert_kind_of Ari::Channel, channel
+
+      # TODO here channel needs to be in Stasis app (answered)
+
+      channel_var = channel.get_channel_var variable: 'my_var'
+
+      assert_equal 'my_value', channel_var.value
+    end
+  end
+
 end

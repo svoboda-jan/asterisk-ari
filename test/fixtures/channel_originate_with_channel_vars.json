@@ -1,0 +1,144 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "post",
+        "uri": "http://192.168.1.23:8088/ari/channels?api_key=asterisk:asterisk&app=dialplan&client=%23%3CAri::Client:0x007fe2092d9d88%3E&endpoint=PJSIP/1ca410-mac&extension=11",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"variables\":{\"my_var\":\"my_value\"}}"
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept": [
+            "application/json"
+          ],
+          "Accept-Charset": [
+            "utf-8"
+          ],
+          "User-Agent": [
+            "asterisk-ari-client/0.0.1 ruby/2.2.0"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Server": [
+            "Asterisk/12.5.0"
+          ],
+          "Date": [
+            "Mon, 13 Oct 2014 00:20:01 GMT"
+          ],
+          "Connection": [
+            "close"
+          ],
+          "Cache-Control": [
+            "no-cache, no-store"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Content-Length": [
+            "299"
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": {
+            "id": "1413159601.264",
+            "state": "Down",
+            "name": "PJSIP/1ca410-mac-00000059",
+            "caller": {
+              "name": "",
+              "number": ""
+            },
+            "connected": {
+              "name": "",
+              "number": ""
+            },
+            "accountcode": "1ca4106c-20b2-11e4-9f50-03cba5fbf325",
+            "dialplan": {
+              "context": "default",
+              "exten": "s",
+              "priority": 1
+            },
+            "creationtime": "2014-10-13T00:20:01.629+0000"
+          }
+        },
+        "http_version": null
+      },
+      "recorded_at": "Wed, 15 Oct 2014 22:33:37 GMT"
+    },
+    {
+      "request": {
+        "method": "get",
+        "uri": "http://192.168.1.23:8088/ari/channels/1413159601.264/variable?api_key=asterisk:asterisk&app=dialplan&channelId=1413159601.264&client=%23%3CAri::Client:0x007fe2092d9d88%3E&variable=my_var",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept": [
+            "application/json"
+          ],
+          "Accept-Charset": [
+            "utf-8"
+          ],
+          "User-Agent": [
+            "asterisk-ari-client/0.0.1 ruby/2.2.0"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Server": [
+            "Asterisk/12.5.0"
+          ],
+          "Date": [
+            "Mon, 13 Oct 2014 00:20:05 GMT"
+          ],
+          "Connection": [
+            "close"
+          ],
+          "Cache-Control": [
+            "no-cache, no-store"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Content-Length": [
+            "20"
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": {
+            "value": "my_value"
+          }
+        },
+        "http_version": null
+      },
+      "recorded_at": "Wed, 15 Oct 2014 22:33:41 GMT"
+    }
+  ],
+  "recorded_with": "VCR 2.9.3"
+}
