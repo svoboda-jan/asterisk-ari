@@ -52,3 +52,10 @@ task :generate do
   models_file.close
 
 end
+
+require 'rake/testtask'
+Rake::TestTask.new do |t|
+  t.pattern = "test/**/*_test.rb"
+end
+
+task :default => :test

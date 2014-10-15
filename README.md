@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/svoboda-jan/asterisk-ari.png?branch=master)](http://travis-ci.org/svoboda-jan/asterisk-ari)
+
 # About
 
 This repository contains the ruby client library for the Asterisk REST Interface (ARI).
