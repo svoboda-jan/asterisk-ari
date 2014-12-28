@@ -23,7 +23,7 @@ module Ari
     }
 
     def initialize(options = {})
-      @options = DEFAULTS.merge! options
+      @options = DEFAULTS.merge options
       @uri = URI.parse @options[:url]
       raise ArgumentError.new("The :api_key needs to be specified.") unless @options[:api_key]
     end
@@ -103,6 +103,8 @@ module Ari
 
     def send_request(request)
       http = Net::HTTP.new(@uri.host, @uri.port)
+      http.open_timeout = @options[:open_timeout]
+      http.read_timeout = @options[:read_timeout]
       response = http.request(request)
       if response.body and !response.body.empty?
         object = MultiJson.load response.body
