@@ -14,7 +14,9 @@ module Ari
 
     def add_listener(type, params = {}, &block)
       client.class.instance_listeners[type.to_sym] ||= []
-      client.class.instance_listeners[type.to_sym] << self
+      unless client.class.instance_listeners[type.to_sym].any? { |l| l.id == self.id }
+        client.class.instance_listeners[type.to_sym] << self
+      end
       client.add_listener "#{type}-#{self.id}", params, &block
     end
     alias_method :on, :add_listener
