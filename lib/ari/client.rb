@@ -63,34 +63,30 @@ module Ari
     end
 
     def handle_websocket_message(event)
-      Thread.new do
-        begin
-          handle_websocket_close(event) and next if event.type == :close
-          next unless event.type == :text
+      handle_websocket_close(event) and return if event.type == :close
+      return unless event.type == :text
 
-          object = MultiJson.load event.data
+      object = MultiJson.load event.data
 
-          handler_klass = Ari.const_get object['type'] rescue nil
-          next unless handler_klass
-          event_name = object['type'].gsub(/([a-z\d])([A-Z])/,'\1_\2').downcase
+      handler_klass = Ari.const_get object['type'] rescue nil
+      return unless handler_klass
+      event_name = object['type'].gsub(/([a-z\d])([A-Z])/,'\1_\2').downcase
 
-          instances = self.class.instance_listeners[event_name.to_sym]
-          
-          event_properties = (handler_klass.instance_methods - Ari::Event.instance_methods)
-          event_properties.reject! { |p| p.to_s.end_with? '=' }
-          handler = handler_klass.new(object.merge(client: self))
-          event_model_ids = event_properties.map { |p| handler.send(p).id rescue nil }.compact
-          [*instances].each do |instance|
-            if event_model_ids.include? instance.id
-              emit "#{event_name}-#{instance.id}", handler
-            end
-          end
+      instances = self.class.instance_listeners[event_name.to_sym]
 
-          self.emit event_name, handler_klass.new(object.merge(client: self))
-        rescue => err
-          emit :websocket_error, err
+      event_properties = (handler_klass.instance_methods - Ari::Event.instance_methods)
+      event_properties.reject! { |p| p.to_s.end_with? '=' }
+      handler = handler_klass.new(object.merge(client: self))
+      event_model_ids = event_properties.map { |p| handler.send(p).id rescue nil }.compact
+      [*instances].each do |instance|
+        if event_model_ids.include? instance.id
+          Thread.new { emit "#{event_name}-#{instance.id}", handler }
         end
       end
+
+      Thread.new { self.emit event_name, handler_klass.new(object.merge(client: self)) }
+    rescue => err
+      emit :websocket_error, err
     end
 
     def handle_websocket_error(err)
