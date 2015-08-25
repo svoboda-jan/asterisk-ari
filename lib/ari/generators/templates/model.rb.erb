@@ -22,7 +22,11 @@ module Ari
       if attribute.type == 'Date'
         'Time.parse(val)'
       else
-        attribute.type + '.new(val)'
+        if attribute.is_a_list?
+          "val.map { |v| #{attribute.type}.new(v) }"
+        else
+          attribute.type + '.new(val)'
+        end
       end
     end -%>
     def <%= attribute.name %>=(val)

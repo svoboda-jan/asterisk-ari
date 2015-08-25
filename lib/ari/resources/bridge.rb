@@ -54,15 +54,16 @@ module Ari
     # bridgeId (required) - Unique ID to give to the bridge being created.
     # name  - Set the name of the bridge.
     #
-    def self.create_or_update_with_id(options = {})
+    def self.create_with_id(options = {})
       raise ArgumentError.new("Parameter bridgeId must be passed in options hash.") unless options[:bridgeId]
       path = '/bridges/%{bridgeId}' % options
       response = client(options).post(path, options)
       Bridge.new(response.merge(client: options[:client]))
     end
+    class << self; alias_method :createWithId, :create_with_id; end
 
-    def create_or_update_with_id(options = {})
-      self.class.create_or_update_with_id(options.merge(bridgeId: self.id, client: @client))
+    def create_with_id(options = {})
+      self.class.create_with_id(options.merge(bridgeId: self.id, client: @client))
     end
 
     # GET /bridges/%{bridgeId}

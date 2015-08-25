@@ -10,12 +10,12 @@
 #------------------------------------------------------------------------------
 
 module Ari
-  class TextMessage < Model
+  class ChannelConnectedLine < Event
 
-    attr_reader :from, :to, :body, :variables
+    attr_reader :channel
 
-    def variables=(val)
-      @variables ||= val.map { |v| TextMessageVariable.new(v) }
+    def channel=(val)
+      @channel ||= Channel.new(val)
     end
 
 

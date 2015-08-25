@@ -1,3 +1,4 @@
+# TODO use variable names with underscores
 module Ari
   class Resource < Model
 

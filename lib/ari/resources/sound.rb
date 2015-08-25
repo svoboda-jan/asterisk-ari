@@ -15,7 +15,7 @@ module Ari
     attr_reader :id, :text, :formats
 
     def formats=(val)
-      @formats ||= FormatLangPair.new(val)
+      @formats ||= val.map { |v| FormatLangPair.new(v) }
     end
 
 

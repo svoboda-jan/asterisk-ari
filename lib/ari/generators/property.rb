@@ -16,11 +16,15 @@ module Ari
       end
 
       def type
-        if @specification['type'].start_with?('List[')
+        if is_a_list?
           @specification['type'][5..-2]
         else
           @specification['type'] == 'void' ? nil : @specification['type']
         end
+      end
+
+      def is_a_list?
+        @specification['type'].start_with?('List[')
       end
 
       def description

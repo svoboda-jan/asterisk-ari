@@ -1,0 +1,5079 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "get",
+        "uri": "http://192.168.64.9:8088/ari/sounds?api_key=asterisk:asterisk&app=dialplan&client=%23%3CAri::Client:0x007f9672c73ac0%3E",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json"
+          ],
+          "Accept": [
+            "application/json"
+          ],
+          "Accept-Charset": [
+            "utf-8"
+          ],
+          "User-Agent": [
+            "asterisk-ari-client/0.0.7 ruby/2.3.0"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Server": [
+            "Asterisk/12.8.1"
+          ],
+          "Date": [
+            "Tue, 25 Aug 2015 11:20:08 GMT"
+          ],
+          "Connection": [
+            "close"
+          ],
+          "Cache-Control": [
+            "no-cache, no-store"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Content-Length": [
+            "56652"
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": [
+            {
+              "id": "vm-nomore",
+              "text": "No more messages.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-review",
+              "text": "press 1 to accept this recording press 2 to listen to it press 3 to rerecord your message",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-now-unmuted",
+              "text": "The conference is now unmuted.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "demo-echodone",
+              "text": "The echo test has been completed.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-rest-talk-vol-out",
+              "text": "...to reset your speaking volume to the default level.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-Urgent",
+              "text": "urgent",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-leave",
+              "text": "<beep decending>",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/70",
+              "text": "seventy",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-begin-leader",
+              "text": "the conference will begin when the leader arrives",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-nobodyavail",
+              "text": "Nobody is available to take your call at the moment",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-inc-list-vol-out",
+              "text": "...to increase the audio volume from other participants.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-menu-exit-out",
+              "text": "...to exit the menu.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-adminmenu",
+              "text": "Please press 1 to mute or unmute yourself, 2 to lock or unlock the conference, 3 to eject the last user, 4 or 6 to decrease or increase the conference volume, 7 or 9 to decrease or increase your volume, or 8 to exit.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-periodic-announce",
+              "text": "All of our represenatives are currently busy. Please stay on the line and your call will be answered by the next available representative.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-goodbye",
+              "text": "Goodbye",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-now-muted",
+              "text": "The conference is now muted.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-conf-begin",
+              "text": "the conference will now begin",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "agent-loggedoff",
+              "text": "Agent Logged off.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-invalid",
+              "text": "You have entered an invalid option.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/p-m",
+              "text": "P.M.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/r_p",
+              "text": "romeo",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-locked",
+              "text": "The conference is now locked.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-unistim",
+              "text": "Unistim",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/20",
+              "text": "twenty",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/o_p",
+              "text": "oscar",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/e_p",
+              "text": "echo",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-message",
+              "text": "message",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-misdn",
+              "text": "M I S D N",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-skinny",
+              "text": "Skinny",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-Cust2",
+              "text": "folder 6",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dictate/both_help",
+              "text": "press * to toggle pause, press # to enter a new dictation filename",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-million",
+              "text": "millionth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-Cust3",
+              "text": "folder 7",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-duration",
+              "text": "This message lasts ...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-mobile",
+              "text": "Bluetooth Mobile",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-undeleted",
+              "text": "Message undeleted.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-Cust1",
+              "text": "folder 5",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "minutes",
+              "text": "minutes",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/zed",
+              "text": "zed",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-mute-out",
+              "text": "...to mute or unmute yourself.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-adminmenu-18",
+              "text": "Please press 1 to mute or unmute yourself, 2 to lock or unlock the conference, 3 to eject the last user, 4 or 6 to decrease or increase the conference volume, 5 to extend the conference, 7 or 9 to decrease or increase your volume, or 8 for more options.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-noempty",
+              "text": "No empty conferences currently exist.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-lockednow",
+              "text": "The conference is now locked",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "tt-monkeysintro",
+              "text": "They have been carried away by monkeys",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-messages",
+              "text": "messages",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-Work",
+              "text": "work",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-Cust4",
+              "text": "folder 8",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-password",
+              "text": "password",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-Cust5",
+              "text": "folder 9",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-lock-in",
+              "text": "To lock, or unlock the conference...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/space",
+              "text": "space [ ]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-forwardoptions",
+              "text": "press 1 to prepend a message or 2 to forward the message without prepending",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-from-extension",
+              "text": "message from extension",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/t_p",
+              "text": "tango",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-participants",
+              "text": "...participants in the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-instructions",
+              "text": "To look into your messages press 1 now.  You may quit voicemail at any time by pressing the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-invalid-password",
+              "text": "That password does not meet the minimum requirements for this mailbox.  Please try again.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/a_p",
+              "text": "alpha",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/k_p",
+              "text": "kilo",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-tocallnum",
+              "text": "press 1 to call this number",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-newuser",
+              "text": "Welcome to Comedian Mail. First, I will guide you through a short setup process.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/at",
+              "text": "at [@]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-torerecord",
+              "text": "press 3 to rerecord your message",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-enteringno",
+              "text": "You are entering conference number",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-Old",
+              "text": "old",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "agent-newlocation",
+              "text": "Please enter a new extension, followed by pound.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/day-6",
+              "text": "Saturday",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/today",
+              "text": "today",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/day-5",
+              "text": "Friday",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-roll-callcomplete",
+              "text": "Playback of the list of people attending is complete.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-savefolder",
+              "text": "Which folder should I save the message to?",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/day-4",
+              "text": "Thursday",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-only-participant",
+              "text": "You are currently the only participant in the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/day-3",
+              "text": "Wednesday",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/plus",
+              "text": "plus [+]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-num-i-have",
+              "text": "the number i have is",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-dec-list-vol-out",
+              "text": "...to decrease the audio volume from other participants.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-userwilljoin",
+              "text": "user will join the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/day-2",
+              "text": "Tuesday",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/oh",
+              "text": "oh",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/day-1",
+              "text": "Monday",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-rest-list-vol-out",
+              "text": "...to reset the audio volume of the conference to the default level.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-forward",
+              "text": "Press 1 to enter an extension, press 2 to use the directory",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-rec-busy",
+              "text": "After the tone say your busy message and then press the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/day-0",
+              "text": "Sunday",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/p_p",
+              "text": "papa",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/z_p",
+              "text": "zulu",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-inc-talk-vol-out",
+              "text": "...to increase your speaking volume to other participants.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/m_p",
+              "text": "mike",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "followme/status",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-whichbox",
+              "text": "To leave a message, please enter a mailbox number.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-repeat",
+              "text": "Press 5 to repeat the current message.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-pin-bad",
+              "text": "You have entered too many invalid personal identification numbers.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-no",
+              "text": "no",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-instr",
+              "text": "If this is the person you are looking for press 1 now, otherwise please press star now.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-invalid",
+              "text": "That is not a valid conference number.  Please try again.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-inc-talk-vol-in",
+              "text": "To increase your speaking volume to other participants...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/60",
+              "text": "sixty",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-tempgreeting2",
+              "text": "press 1 to record your temporary greeting, or press 2 to erase your temporary greeting",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-reporthold",
+              "text": "Hold time",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/tomorrow",
+              "text": "tomorrow",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/19",
+              "text": "nineteen",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/18",
+              "text": "eighteen",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "privacy-prompt",
+              "text": "Please enter your phone number, starting with the area code.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-thankyou",
+              "text": "Thank you for your patience",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-tempgreetactive",
+              "text": "Your temporary greeting is currently active",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/17",
+              "text": "seventeen",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-reenterpassword",
+              "text": "Please re-enter your password followed by the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-hundred",
+              "text": "hundredth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/16",
+              "text": "sixteen",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-dec-talk-vol-in",
+              "text": "To decrease your speaking volume to other participants...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-tempgreeting",
+              "text": "press 1 to record your temporary greeting",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-waitforleader",
+              "text": "The conference will begin when the leader arrives.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-opts",
+              "text": "Press 2 to change folders, press 3 for advanced options, press zero for mailbox options.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-incorrect",
+              "text": "Login incorrect.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/15",
+              "text": "fifteen",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-console",
+              "text": "Console",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/i_p",
+              "text": "india",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-rec-temp",
+              "text": "After the tone, say your temporary message, and then press the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-there-are",
+              "text": "There are currently...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-undelete",
+              "text": "Press 7 to undelete this message",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/14",
+              "text": "fourteen",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-50",
+              "text": "fiftieth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/exclaimation-point",
+              "text": "exclaimation-point [!]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "silence/8",
+              "text": "(8 seconds of silence)",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/13",
+              "text": "thirteen",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/yesterday",
+              "text": "yesterday",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "silence/9",
+              "text": "(9 seconds of silence)",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "priv-introsaved",
+              "text": "Thank you. Please hold, while I attempt to connect you with your party!",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-from",
+              "text": "from",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-multi1",
+              "text": "Press ...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/minus",
+              "text": "minus",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/12",
+              "text": "twelve",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "silence/6",
+              "text": "(6 seconds of silence)",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/11",
+              "text": "eleven",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "silence/7",
+              "text": "(7 seconds of silence)",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "agent-pass",
+              "text": "Please enter your password followed by the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-conf-end",
+              "text": "the conference has ended",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-nonextended",
+              "text": "The conference cannot be extended.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/10",
+              "text": "ten",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "silence/4",
+              "text": "(4 seconds of silence)",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-multi3",
+              "text": "... extension ...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-multi2",
+              "text": "... for ...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "silence/5",
+              "text": "(5 seconds of silence)",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-advopts",
+              "text": "press 3 for advanced options",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "silence/2",
+              "text": "(2 seconds of silence)",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-leave-out",
+              "text": "...to leave the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "tt-allbusy",
+              "text": "All representatives of the household are currently assisting other telemarketers.  Please hold and your call will be answered in the order it was received.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dictate/forhelp",
+              "text": "press 0 for help",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "silence/3",
+              "text": "(3 seconds of silence)",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "privacy-incorrect",
+              "text": "I'm sorry, that number is not valid.",
+              "formats": [
+                {
+                  "language": "ogg",
+                  "format": "slin"
+                },
+                {
+                  "language": "mp3",
+                  "format": "slin"
+                },
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii60",
+              "text": "less than",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/x_p",
+              "text": "xray",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "silence/1",
+              "text": "(1 second of silence)",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-invalidpassword",
+              "text": "That is not a valid password.  Please try again.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii62",
+              "text": "greater than",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "demo-congrats",
+              "text": "Congratulations.  You have successfully installed and executed the Asterisk open source PBX.  You have also installed a set of sample sounds and configuration files that should help you to get started.  Like a normal PBX you will navigate this demonstration by dialing digits.  If you are using a console channel driver instead of a real phone you can use the dial, answer, and hang up commands to simulate the actions of a standard telephone.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-lock-out",
+              "text": "...to lock, or unlock the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-multi9",
+              "text": "Press 9 for more entries.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-passchanged",
+              "text": "Your passwords have been changed.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-then-pound",
+              "text": "then press pound",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii63",
+              "text": "question mark",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "followme/no-recording",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dictate/play_help",
+              "text": "press 1 to switch to record mode, press 2 to toggle fast playback, press 7 to jump backwards, press 8 to jump forwards",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/a-m",
+              "text": "A.M.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dictate/truncating_audio",
+              "text": "truncating audio",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dictate/paused",
+              "text": "paused",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "ascending-2tone",
+              "text": "[ascending tones]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-opts-full",
+              "text": "press 2 to access messages saved in other folders.  Press 3 to record a message for another mailbox.  Press 0 for greetings and password management.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-record-prepend",
+              "text": "At the tone, please record an introduction to the forwarded message.  When done, press the pound sign.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-billion",
+              "text": "billionth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-80",
+              "text": "eightieth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-rest-talk-vol-in",
+              "text": "To reset your speaking volume to the default level...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "pbx-transfer",
+              "text": "Transfer.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-deleted",
+              "text": "Message deleted.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-savemessage",
+              "text": "or 9 to save this message",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-and",
+              "text": "and",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-18",
+              "text": "eighteenth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-tocancel",
+              "text": "or pound to cancel.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "seconds",
+              "text": "seconds",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-youarenext",
+              "text": "Your call is now first in line and will be answered by the next available representative.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-19",
+              "text": "nineteenth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "demo-echotest",
+              "text": "You are about to enter an echo test.  In this mode everything you say will be repeated back to you just as soon as it is received.  The purpose of this test is to give you an audible sense of the latency between you and the machine that is running the echo test application.  You may end the test by hanging up or by pressing the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-mailboxfull",
+              "text": "sorry but the user's mail box can't accept more messages",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii125",
+              "text": "right brace",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-theperson",
+              "text": "The person at extension",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii124",
+              "text": "pipe",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-isonphone",
+              "text": "is on the phone",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-extended",
+              "text": "The conference has been extended.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-has-joined",
+              "text": "...has joined the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-nbs",
+              "text": "N B S",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "agent-incorrect",
+              "text": "Login incorrect.  Please enter your agent number followed by the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii59",
+              "text": "semicolon",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-saveoper",
+              "text": "press 1 to accept this recording, otherwise, please continue to hold",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii126",
+              "text": "tilde",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii58",
+              "text": "colon",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-helpexit",
+              "text": "Press star for help or pound to exit.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-unknown-caller",
+              "text": "from an unknown caller",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "transfer",
+              "text": "Please hold while I try that extension.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-otherinparty",
+              "text": "other participants in the conference",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-12",
+              "text": "twelfth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-13",
+              "text": "thirteenth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-intro-fn",
+              "text": "Welcome to the directory.  Please enter the first three letters of your party's first name using your touch tone keypad.  Use the 7 key for Q and the 9 key for Z.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-10",
+              "text": "tenth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii123",
+              "text": "left brace",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-intro",
+              "text": "Please leave your message after the tone.  When done hang up or press the pound key. (simple tone sound plays)",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-mute-extended",
+              "text": "...to mute, or unmute yourself. When you are muted you can not send audio to other participants. However you will still hear audio from other unmuted participants.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-nomore",
+              "text": "There are no more compatible entries in the directory.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-tempremoved",
+              "text": "Your temporary greeting has been removed",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-11",
+              "text": "eleventh",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-dec-list-vol-in",
+              "text": "To decrease the audio volume from other participants...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-16",
+              "text": "sixteenth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-welcome",
+              "text": "Welcome to the directory",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "followme/pls-hold-while-try",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-17",
+              "text": "seventeenth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-last",
+              "text": "last",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "demo-abouttotry",
+              "text": "I am about to attempt an Inter-Asterisk Exchange connection to a demonstration server located at Digium.  In order for this to work you must already be connected to the Internet.  Please wait a moment while I attempt to make the connection.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-zap",
+              "text": "Zap",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/50",
+              "text": "fifty",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/oclock",
+              "text": "o'clock",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-14",
+              "text": "fourteenth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-tohearenv",
+              "text": "press 3 to hear the message envelope",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-15",
+              "text": "fifteenth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/f_p",
+              "text": "foxtrot",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-getpin",
+              "text": "Please enter the conference pin number.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-seconds",
+              "text": "Seconds",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "auth-incorrect",
+              "text": "Password incorrect.  Please enter your password followed by the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-60",
+              "text": "sixtieth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-muted",
+              "text": "You are now muted",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-mgcp",
+              "text": "MGCP",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-usermenu-162",
+              "text": "Please press 1 to mute or unmute yourself, 4 or 6 to decrease or increase the conference volume, 5 to extend the conference, 7 or 9 to decrease or increase your volume, or 8 to exit this menu and return to the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "demo-nomatch",
+              "text": "I'm sorry there are no matches for those keywords",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-onefor-full",
+              "text": "Press one to listen to ...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-from-phonenumber",
+              "text": "message from phone number",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "privacy-unident",
+              "text": "The party you are trying to reach does not accept unidentified calls.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/w_p",
+              "text": "whiskey",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-pin",
+              "text": "Please enter your personal identification number followed by the pound, or hash key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "demo-nogo",
+              "text": "I am afraid I was unable to create a connection to the Digium demonstration Asterisk server.  You may find some helpful debugging information on the Asterisk console.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "priv-recordintro",
+              "text": "At the tone, please say your name.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-tooshort",
+              "text": "your message is too short",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "priv-callee-options",
+              "text": "Dial 1 if you wish this caller to reach you directly now, and in the future.  Dial 2 if you wish to send this caller to voicemail now and forevermore.  Dial 3 to send this caller to the torture menus, now and forevermore.  Dial 4 to send this caller to a polite \"don't call\" menu, now and forevermore.  Dial 5 to allow this caller to come straight thru to you in the future, but just this once, send them to voicemail.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-first",
+              "text": "letters of your party's first name.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-muted",
+              "text": "You are now muted.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/dollars",
+              "text": "dollars",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-usingkeypad",
+              "text": "... using your touchtone keypad.  Use the 7 key for Q, and the 9 key for Z.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "pbx-parkingfailed",
+              "text": "Parking attempt failed.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-toreply",
+              "text": "press 1 to send a reply",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-sip",
+              "text": "SIP",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-received",
+              "text": "received",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "auth-thankyou",
+              "text": "Thank you.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "pbx-invalid",
+              "text": "I am sorry, that's not a valid extension.  Please try again.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-unlocked",
+              "text": "The conference is now unlocked.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-9",
+              "text": "ninth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/dollar",
+              "text": "dollar [$]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/dash",
+              "text": "dash [-]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-dialout",
+              "text": "please wait while i connect your call",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-sorry",
+              "text": "I'm sorry I did not understand your response.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/b_p",
+              "text": "bravo",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-enter-num-to-call",
+              "text": "please enter the number you wish to call",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-onlyone",
+              "text": "There is currently one other participant in the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-8",
+              "text": "eighth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-calldiffnum",
+              "text": "press 2 to enter a different number",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/dot",
+              "text": "dot [.]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-forward-multiple",
+              "text": "press 1 to send this message, or 2 to add another recipient.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-lock-no-join",
+              "text": "The conference is currently locked and cannot be joined.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-quantity1",
+              "text": "Currently, there are more than ...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/s_p",
+              "text": "sierra",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "sorry",
+              "formats": [
+                {
+                  "language": "ogg",
+                  "format": "slin"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-3",
+              "text": "third",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/mon-10",
+              "text": "November",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-leaderhasleft",
+              "text": "The leader has left the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-quantity2",
+              "text": "... callers waiting to speak with a representative.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dictate/enter_filename",
+              "text": "Enter a numeric dictation filename followed by # or just # to exit",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/mon-11",
+              "text": "December",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-2",
+              "text": "second",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-saved",
+              "text": "saved",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-getconfno",
+              "text": "Please enter your conference number followed by the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-1",
+              "text": "first",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-reachoper",
+              "text": "press 0 to reach an operator",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "silence/10",
+              "text": "(10 seconds of silence)",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-pls-enter",
+              "text": "Please enter the first ...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-tmpexists",
+              "text": "There is a temporary greeting, which overrides your standard greetings.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dictate/record_mode",
+              "text": "record mode",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-has-left",
+              "text": "...has left the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-marked-urgent",
+              "text": "Message marked urgent.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-adminmenu-menu8",
+              "text": "Press 1 to list users currently in the conference, 2 to kick all non-administrator users, 3 to mute or umute all non-administrator users, 4 to record this conference, or 8 to exit this menu and return to the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-usermenu",
+              "text": "Please press 1 to mute or unmute yourself, 4 or 6 to decrease or increase the conference volume, 7 or 9 to decrease or increase your volume, or 8 to exit.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-7",
+              "text": "seventh",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/n_p",
+              "text": "november",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/d_p",
+              "text": "delta",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "pbx-invalidpark",
+              "text": "I am sorry, there is no call parked on that extension.  Please try again.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-intro",
+              "text": "Welcome to the directory.  Please enter the first three letters of your party's last name using your touch tone keypad.  Use the 7 key for Q and the 9 key for Z.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-6",
+              "text": "sixth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-minutes",
+              "text": "minutes",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-5",
+              "text": "fifth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/9_p",
+              "text": "niner",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-extension",
+              "text": "extension",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-4",
+              "text": "fourth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/90",
+              "text": "ninety",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/u_p",
+              "text": "uniform",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-unmuted",
+              "text": "You are no longer muted.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-hasleft",
+              "text": "has left the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-20",
+              "text": "twentieth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-pls-try-again",
+              "text": "please try again",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "demo-moreinfo",
+              "text": "Asterisk is an Open Source full-featured PBX and IVR platform that runs on the linux operating system.  For more information, visit www.asterisk.org.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-mute-in",
+              "text": "To mute or unmute yourself...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-review-urgent",
+              "text": "Press 4 to mark this message as urgent.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/40",
+              "text": "forty",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/j_p",
+              "text": "juliet",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "privacy-thankyou",
+              "text": "Thank you.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-last",
+              "text": "... letters of your party's last name.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-newpassword",
+              "text": "Please enter your new password followed by the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-callswaiting",
+              "text": "Waiting to speak with a representative",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-dahdi",
+              "text": "DAHDI",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "beeperr",
+              "text": "[this is an error beep tone]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-INBOX",
+              "text": "new",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/mon-9",
+              "text": "October",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-firstlast",
+              "text": "... letters of your party's first or last name.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-placeintoconf",
+              "text": "You will now be placed into the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/mon-8",
+              "text": "September",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/q_p",
+              "text": "quebec",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-onlyperson",
+              "text": "You are currently the only person in this conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/star",
+              "text": "star",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/pound",
+              "text": "pound",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/mon-7",
+              "text": "August",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-dec-talk-vol-out",
+              "text": "...to decrease your speaking volume to other participants.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/mon-6",
+              "text": "July",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/slash",
+              "text": "slash [/]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-unmuted",
+              "text": "You are now unmuted",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/thousand",
+              "text": "thousand",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/mon-5",
+              "text": "June",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-locked",
+              "text": "This conference is locked!",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-hasjoin",
+              "text": "is now in the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-isunavail",
+              "text": "is unavailable",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dictate/record_help",
+              "text": "press 1 to switch to playback mode, press 8 to truncate the file and start over",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-leave-in",
+              "text": "To leave the conference...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/mon-4",
+              "text": "May",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "tt-somethingwrong",
+              "text": "Something is terribly wrong",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/mon-3",
+              "text": "April",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-getchannel",
+              "text": "Please enter the channel number followed by the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-delete",
+              "text": "Press 7 to delete this message.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/mon-2",
+              "text": "March",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/l_p",
+              "text": "lima",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "agent-alreadyon",
+              "text": "That agent is already logged on.  Please enter your agent number followed by the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/mon-1",
+              "text": "February",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/g",
+              "text": "g",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/mon-0",
+              "text": "January",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/f",
+              "text": "f",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii42",
+              "text": "star",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-tocallback",
+              "text": "press 2 to call the person who sent this message",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-iax2",
+              "text": "IAX (note: does not say \"2\")",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/e",
+              "text": "e",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-kicked",
+              "text": "You have been kicked from this conference",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/million",
+              "text": "million",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/d",
+              "text": "d",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii40",
+              "text": "open parenthesis",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-next",
+              "text": "Press 6 to play the next message.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/8",
+              "text": "eight",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-90",
+              "text": "ninetieth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/c",
+              "text": "c",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii41",
+              "text": "close parenthesis",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-now-recording",
+              "text": "The conference is now being recorded.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-nonumber",
+              "text": "I'm afraid i don't know who sent this message",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-onefor",
+              "text": "Press 1 for",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "beep",
+              "text": "[this is a simple beep tone]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/9",
+              "text": "nine",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/b",
+              "text": "b",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/equals",
+              "text": "equals [=]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii34",
+              "text": "quote",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "hello-world",
+              "text": "Hello world.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-menu-exit-in",
+              "text": "To exit the menu...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/6",
+              "text": "six",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/a",
+              "text": "a",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii37",
+              "text": "percent",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-jingle",
+              "text": "Jingle",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-msginstruct",
+              "text": "To hear the next message press 6, to repeat this message press 5, to hear the previous message press 4, to delete or undelete this message press zero, to quit voicemail press pound.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/7",
+              "text": "seven",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii44",
+              "text": "comma",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii36",
+              "text": "dollar sign",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-minute",
+              "text": "minute",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-h323",
+              "text": "H.323",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-usbradio",
+              "text": "USB Radio",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/4",
+              "text": "four",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/o",
+              "text": "o",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/5",
+              "text": "five",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/billion",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/n",
+              "text": "n",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/h_p",
+              "text": "hotel",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-remove-last-in",
+              "text": "To remove the participant who most recently joined the conference...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-changeto",
+              "text": "Change to which folder?",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-inc-list-vol-in",
+              "text": "To increase the audio volume from other participants...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/2",
+              "text": "two",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/asterisk",
+              "text": "asterisk",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/m",
+              "text": "m",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-login",
+              "text": "Comedian Mail.  Mailbox?",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-mismatch",
+              "text": "The passwords you entered and re-entered did not match.  Please try again.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/3",
+              "text": "three",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/l",
+              "text": "l",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-errormenu",
+              "text": "Invalid Choice",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-adminmenu-162",
+              "text": "Please press 1 to mute or unmute yourself, 2 to lock or unlock the conference, 3 to eject the last user, 4 or 6 to decrease or increase the conference volume, 5 to extend the conference, 7 or 9 to decrease or increase your volume, or 8 to exit.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/0",
+              "text": "zero",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/k",
+              "text": "k",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-nobox",
+              "text": "you cannot reply to this message because the sender does not have a mailbox",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-thereare",
+              "text": "There are currently",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/1",
+              "text": "one",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/j",
+              "text": "j",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/y_p",
+              "text": "yankee",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-Family",
+              "text": "family",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-rest-list-vol-in",
+              "text": "To reset the audio volume of the conference to the default level...",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/80",
+              "text": "eighty",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/i",
+              "text": "i",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-tocancelmsg",
+              "text": "press star to cancel this message",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-minutes",
+              "text": "minutes",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-rec-name",
+              "text": "After the tone say your name and then press the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-prev",
+              "text": "Press 4 for the previous message",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-youhave",
+              "text": "you have",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dictate/playback",
+              "text": "playback",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-userswilljoin",
+              "text": "users will join the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/h",
+              "text": "h",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "demo-thanks",
+              "text": "Goodbye.  Thank you for trying out the Asterisk Open Source PBX.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii39",
+              "text": "tick",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/w",
+              "text": "w",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-Friends",
+              "text": "friends",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-thereare",
+              "text": "You are currently caller number",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dictate/record",
+              "text": "record",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/v",
+              "text": "v",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii38",
+              "text": "ampersand",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-iax",
+              "text": "IAX",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/u",
+              "text": "u",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "demo-instruct",
+              "text": "If you would like to learn more technical information about Asterisk dial 2 now.  If you'd like to test out the voice over IP capabilities of Asterisk you can dial 500 to attempt an Inter-Asterisk Exchange or IAX connection to a demonstration server at Digium.  In order for this test to work you will need to be connected to the Internet and have at least a 28.8 kilobit modem.  To execute an echo test dial 600.  This test is most useful when you have connected to this Asterisk server from a remote location.  The sample configuration also has a single user with extension 1234 and password 4242.  That user is configured to ring the console when their extension is dialed.  If you dial 1234 you can try to ring the console.  If the console is busy or unavailable you will be given the option to leave voicemail.  To check voice mail for the user dial extension 8500 to enter the voicemail system.  Finally,  you can press the pound key to disconnect from the PBX.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-join",
+              "text": "<beep ascending>",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-unlockednow",
+              "text": "The conference is now unlocked",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/t",
+              "text": "t",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii96",
+              "text": "backtick",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-tomakecall",
+              "text": "press 4 to place an outgoing call",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-starmain",
+              "text": "press star to return to the main menu",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-holdtime",
+              "text": "The estimated hold time is currently",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-70",
+              "text": "seventieth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/s",
+              "text": "s",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii95",
+              "text": "underscore",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/r",
+              "text": "r",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii94",
+              "text": "caret",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "queue-less-than",
+              "text": "less than",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "ss-noservice",
+              "text": "The number you have dialed is not in service. Please check the number and try again.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "followme/sorry",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii93",
+              "text": "right bracket",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/q",
+              "text": "q",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "followme/options",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii92",
+              "text": "backslash",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/p",
+              "text": "p",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-lock-extended",
+              "text": "...to lock, or unlock the conference. When a conference is locked only conference administrators can join.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/30",
+              "text": "thirty",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/ascii91",
+              "text": "left bracket",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "tt-weasels",
+              "text": "Weasels have eaten our phone system",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "screen-callee-options",
+              "text": "You have these options: Dial 1 if you wish to immediately connect to the incoming call.  Dial 2 if you wish to send this caller to voicemail.  Dial 3 to send this caller to the torture menus.  Dial 4 to send this caller to a polite \"don't call\" menu.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-only-one",
+              "text": "There is currently one other participant in the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dictate/playback_mode",
+              "text": "playback mode",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-40",
+              "text": "fourtieth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "demo-enterkeywords",
+              "text": "Please enter one or more keywords separated by * and then press the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-press",
+              "text": "press",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-local",
+              "text": "Local",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-msgsaved",
+              "text": "Your message has been saved.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-for",
+              "text": "for",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "conf-invalidpin",
+              "text": "That pin is invalid for this conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/z",
+              "text": "z",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "tt-monkeys",
+              "text": "[sound of monkeys screaming]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "descending-2tone",
+              "text": "[descending tones]",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/y",
+              "text": "y",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dictate/pause",
+              "text": "pause",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-savedto",
+              "text": "saved to",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "letters/x",
+              "text": "x",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-remove-last-out",
+              "text": "...to remove the participant who most recently joined the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-rec-unv",
+              "text": "After the tone say your unavailable message and then press the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-marked-nonurgent",
+              "text": "Urgent status removed.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/hundred",
+              "text": "hundred",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/g_p",
+              "text": "golf",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "invalid",
+              "text": "I am sorry, that's not a valid extension.  Please try again.",
+              "formats": [
+                {
+                  "language": "ogg",
+                  "format": "slin"
+                },
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-toforward",
+              "text": "Press 8 to forward the message to another user",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "agent-loginok",
+              "text": "Agent logged in.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-review-nonurgent",
+              "text": "Press 4 to remove the urgent status of this message.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-leavemsg",
+              "text": "Press 5 to leave a message",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/at",
+              "text": "at",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-incorrect-mailbox",
+              "text": "Login incorrect.  Mailbox?",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-star-cancel",
+              "text": "press star to cancel",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "followme/call-from",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-begin-glorious-a",
+              "text": "the conference will begin when our glorious leader arrives",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-thousand",
+              "text": "thousandth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-first",
+              "text": "first",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-options",
+              "text": "Press 1 to record your unavailable message, press 2 to record your busy message, press 3 to record your name, press 4 to record your temporary greeting, press 5 to change your password, press star to return to the main menu.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-removed",
+              "text": "You have been removed from the conference.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-begin-glorious-c",
+              "text": "the conference will begin when our glorious leader arrives",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "vm-toenternumber",
+              "text": "press 1 to enter a number",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "dir-nomatch",
+              "text": "No directory entries match your search.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/v_p",
+              "text": "victor",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "agent-user",
+              "text": "Agent login.  Please enter your agent number followed by the pound key.",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "confbridge-begin-glorious-b",
+              "text": "the conference will begin when our glorious leader arrives",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "spy-agent",
+              "text": "Agent",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "digits/h-30",
+              "text": "thirtieth",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "priv-callpending",
+              "text": "I have a caller waiting, who introduces themselves as:",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "phonetic/c_p",
+              "text": "charlie",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            },
+            {
+              "id": "hours",
+              "text": "hours",
+              "formats": [
+                {
+                  "language": "en",
+                  "format": "gsm"
+                }
+              ]
+            }
+          ]
+        },
+        "http_version": null
+      },
+      "recorded_at": "Tue, 25 Aug 2015 11:20:08 GMT"
+    }
+  ],
+  "recorded_with": "VCR 2.9.3"
+}
