@@ -21,6 +21,10 @@ Or install it yourself as:
 
     $ gem install asterisk-ari-client
 
+and then require it:
+
+    require 'asterisk/ari/client'
+
 ## Usage
 
 ```ruby
