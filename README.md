@@ -23,7 +23,9 @@ Or install it yourself as:
 
 and then require it:
 
-    require 'asterisk/ari/client'
+```ruby
+require 'asterisk/ari/client'
+```
 
 ## Usage
 
