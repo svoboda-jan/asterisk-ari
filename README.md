@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/svoboda-jan/asterisk-ari.png?branch=master)](http://travis-ci.org/svoboda-jan/asterisk-ari)
+[![Build Status](https://gitlab.com/asteriskpbx/asterisk-ari/badges/master/build.svg)](https://gitlab.com/asteriskpbx/asterisk-ari/pipelines)
 
 # About
 
@@ -10,9 +10,7 @@ It uses the swagger ARI json definitions to generate ruby classes.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'asterisk'
-# or older way:
-# gem 'asterisk-ari-client'
+gem 'asterisk-ari-client'
 ```
 
 And then execute:
@@ -21,16 +19,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install asterisk
-    # or older way:
-    # $ gem install asterisk-ari-client
+    $ gem install asterisk-ari-client
 
 and then require it:
 
 ```ruby
-require 'asterisk'
-# or older way:
-# require 'asterisk/ari/client'
+require 'asterisk/ari/client'
 ```
 
 ## Usage

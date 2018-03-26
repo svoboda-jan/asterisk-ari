@@ -2,6 +2,13 @@ require "bundler/gem_tasks"
 require 'open-uri'
 require 'json'
 require 'ari/generators/resource_generator'
+require "rake/testtask"
+
+task :default => :test
+
+Rake::TestTask.new do |t|
+  t.pattern = "test/**/*_test.rb"
+end
 
 desc "Generate resources from JSON specification"
 task :generate do
@@ -52,10 +59,3 @@ task :generate do
   models_file.close
 
 end
-
-require 'rake/testtask'
-Rake::TestTask.new do |t|
-  t.pattern = "test/**/*_test.rb"
-end
-
-task :default => :test
