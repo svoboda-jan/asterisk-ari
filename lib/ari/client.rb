@@ -31,12 +31,12 @@ module Ari
     %w{ get put post delete }.each do |http_method|
       method_klass = Net::HTTP.const_get http_method.to_s.capitalize
       define_method http_method do |path, params = {}|
-        request_body = params.delete(:body)
+        http_body = params.delete(:http_body)
         params.merge!({ api_key: @options[:api_key], app: @options[:app] })
         query_string = URI.encode_www_form params
         request_path = "#{@uri.path}#{path}?#{query_string}"
         request = method_klass.new request_path, HTTP_HEADERS
-        request.body = request_body.is_a?(Hash) ? MultiJson.dump(request_body) : request_body
+        request.body = http_body.is_a?(Hash) ? MultiJson.dump(http_body) : http_body
         send_request request
       end
     end
@@ -63,10 +63,13 @@ module Ari
     end
 
     def handle_websocket_message(event)
+      # puts event.inspect
       handle_websocket_close(event) and return if event.type == :close
       return unless event.type == :text
 
       object = MultiJson.load event.data
+
+      #puts "XXXXXXXX ARI-client: #{object['type']} XXXXXXXX"
 
       handler_klass = Ari.const_get object['type'] rescue nil
       return unless handler_klass
@@ -99,8 +102,10 @@ module Ari
 
     def send_request(request)
       http = Net::HTTP.new(@uri.host, @uri.port)
+      http.use_ssl = @uri.scheme == 'https'
       http.open_timeout = @options[:open_timeout]
       http.read_timeout = @options[:read_timeout]
+
       response = http.request(request)
       if response.body and !response.body.empty?
         object = MultiJson.load response.body
